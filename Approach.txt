@@ -1,0 +1,6 @@
+The following sequential approach is followed:-
+  (1) Importing the libraries
+  (2) Importing the dataset
+  (3) Cleaning the texts
+  (4) Creating the Bag of Words model
+  (5) Using Naive Bayes Classifier
