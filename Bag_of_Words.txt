@@ -1,10 +1,13 @@
-Bag Of Words Model:
-The bag-of-words model is simple to understand and implement. 
-It is a way of extracting features from the text for use in machine learning algorithms.
-In this approach, we use the tokenized words for each observation and find out the frequency of each token.
-We treat each sentence as a separate document and we make a list of all words from all the four documents excluding the punctuation.
-The next step is to the create vectors. Vectors convert text that can be used by the machine learning algorithm.
-The process of converting NLP text into numbers is called vectorization in ML. Different ways to convert text into vectors are:-
-  (1)Counting the number of times each word appears in a document.
-  (2)Calculating the frequency that each word appears in a document out of all the words in the document.
- CountVectorizer works on Terms Frequency i.e. counting the occurrences of tokens and building a sparse matrix of documents x tokens.
+Bag Of Words Model explanation:
+  The bag-of-words model is simple to understand and implement. 
+  It is a way of extracting features from the text for use in machine learning algorithms.
+  In this approach, we use the tokenized words for each observation and find out the frequency of each token.
+  We treat each sentence as a separate document and we make a list of all words from all the four documents excluding the punctuation.
+  The next step is to the create vectors. Vectors convert text that can be used by the machine learning algorithm.
+  The process of converting NLP text into numbers is called vectorization in ML. Different ways to convert text into vectors are:-
+    (1)Counting the number of times each word appears in a document.
+    (2)Calculating the frequency that each word appears in a document out of all the words in the document.
+  CountVectorizer works on Terms Frequency i.e. counting the occurrences of tokens and building a sparse matrix of documents x tokens.
+Applications-  Bag-of-words model is mainly used as a tool of feature generation.
+               After transforming the text into a "bag of words", we can calculate various measures to characterize the text.
+               The most common type of characteristics, or features calculated from the Bag-of-words model is term frequency, namely, the                number of times a term appears in the text.
