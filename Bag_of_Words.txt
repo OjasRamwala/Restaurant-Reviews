@@ -10,4 +10,4 @@ Bag Of Words Model explanation:
   CountVectorizer works on Terms Frequency i.e. counting the occurrences of tokens and building a sparse matrix of documents x tokens.
 Applications-  Bag-of-words model is mainly used as a tool of feature generation.
                After transforming the text into a "bag of words", we can calculate various measures to characterize the text.
-               The most common type of characteristics, or features calculated from the Bag-of-words model is term frequency, namely, the                number of times a term appears in the text.
+               The most common type of characteristics, or features calculated from the Bag-of-words model is term frequency, namely, the number of times a term appears in the text.
